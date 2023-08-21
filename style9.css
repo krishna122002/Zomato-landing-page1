@@ -1,0 +1,22 @@
+.flex-container{
+    display: flex;
+    /* flex-flow: column-reverse nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: wrap;*/
+    /* justify-content: space-around; */
+    /* height: 300px;
+    flex-wrap: wrap;
+    align-content: space-between; */
+    height: 500px;
+    background-color: plum; 
+}
+.flex-container >div
+{
+    text-align: center;
+    background-color: khaki;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+}
